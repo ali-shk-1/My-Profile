@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+:root {
+  --background: oklch(0.08 0.02 280);
+  --foreground: oklch(0.95 0.01 280);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  min-height: 100vh;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.glass {
+  background: oklch(1 0 0 / 0.04);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.gradient-border {
+  border: 1px solid oklch(1 0 0 / 0.1);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #a78bfa, #60a5fa, #34d399);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-foreground {
+  color: var(--foreground);
+}

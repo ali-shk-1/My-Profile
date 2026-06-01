@@ -1,0 +1,9 @@
+{
+  "name": "Muhammad Ali — Links",
+  "short_name": "Ali Links",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0a1a",
+  "theme_color": "#0b0a1a",
+  "icons": []
+}
