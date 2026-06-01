@@ -77,19 +77,8 @@ export function LinkHub() {
           >
             Muhammad <span className="text-gradient">Ali</span>
           </motion.h1>
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.25 }}
-            style={{
-              marginTop: "0.5rem",
-              fontSize: "0.85rem",
-              color: "oklch(0.7 0.01 280)",
-            }}
-          >
-            Builder, creator &amp; lifelong learner
-          </motion.p>
-        </div>
+          
+          </div>
 
         <ul style={{ marginTop: "2rem", display: "flex", flexDirection: "column", gap: "0.75rem" }}>
           {LINKS.map((link, i) => (
